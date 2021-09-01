@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  
+body {
+    background-color: #2b3146;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+}
+.content{
+
+}
+.nadpis{
+    color: #6fe0d1;
+    font-size: 30px;
+    font-weight: 900;
+    top: 30px;
+    padding-left: 30px;
+    padding-right: 10%;
+}
+.fraza{
+    position: fixed;
+    left: 20%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff616f;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.textik{
+    color: #fff;
+    font-size: 20px;
+    position: fixed;
+    left: 20%;
+}
+
+.button {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px ;
+    border-radius: 5px;
+    background-color: #ff616f;
+    text-decoration: none;
+    text-align: center;
+    right: 30px;
+    top: 10px;
+}
+.button:hover {
+    background-color: #6fe0d1;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #6fe0d1;
+    color: #2b3146;
+    text-align: left;
+	padding: 10px 10% 20px;
+	overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* The company logo */
+
+/* Footer links */
+.footer .footer-links{
+	margin: 0 0 10px;
+}
+
+.footer .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+    padding: 8px;
+	text-decoration: none;
+	color:  inherit;
+}
+@media only screen and (max-width: 768px){
+    .nadpis{
+        color: #6fe0d1;
+        font-size: 30px;
+        font-weight: 900;
+        float: left;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .fraza{
+        position: fixed;
+        left: 20%;
+        font-size: 50px;
+        font-weight: bold;
+        color: #ff616f;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    
+    .textik{
+        font-size: 20px;
+        margin: auto;
+        position: fixed;
+        top: 45%;
+        left: 20%;
+    }
+    
+    .button {
+        color: #fff;
+        font-size: 16px;
+        margin-left: 10px;
+        padding: 10px ;
+        border-radius: 5px;
+        background-color: #ff616f;
+        text-decoration: none;
+        text-align: center;
+        left: 50%;
+    }
+    .button:hover {
+        background-color: #6fe0d1;
+    }
+    .footer .footer-links{
+        margin: 0;
+    }
+    
+    .footer .footer-links a{
+        display: block;
+        line-height: 1.8;
+        padding: 5px;
+        text-decoration: none;
+    }
+}

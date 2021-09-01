@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+div.text-success{
+    color:black;
+    height: 50px;
+    width: 500px;
+    text-align: right;
+    border-bottom:5px;
+    border-radius: 5px; 
+}
+div.text-danger{
+    color:black;
+    height: 50px;
+    width: 250px;
+    text-align: left;
+    border-bottom:5px;
+    border-radius: 5px;
+}
+body{
+    background-color:  #2b3146;
+    text-align:center;
+    color: white;
+}
+
+.chat_message_area{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    top: 125px;
+}
+
+#group_chat_message{
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    overflow: auto;
+    padding:6px 24px 6px 12px;
+}
+div.chat_history{
+    background-color:#6fe0d1;
+    height:500px;
+    width: 550px;
+    border:1px solid #ccc; 
+    overflow-y: scroll; 
+    margin-bottom:24px; 
+    padding:16px;
+    top: 125px;
+    border-radius: 15px;
+}
+@media only screen and (max-width: 768px){
+    div.chat_history{
+        background-color:#6fe0d1;
+        height: 400px;
+        width: 80%;
+        border:1px solid #ccc; 
+        overflow-y: scroll; 
+        margin-bottom:24px; 
+        padding:16px;
+        top: 125px;
+        border-radius: 15px;
+    }
+    div.menu ul {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0;
+        background-color: rgba(69, 105, 144, 0.73);
+        top: 75;
+        width: 90%;
+        border: 20px #232f5a;
+        border-radius: 15px 15px 15px 15px;
+    }
+    
+}
+div.menu ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(69, 105, 144, 0.73);
+    top: 75;
+    width: 80%;
+    border: 20px #232f5a;
+    border-radius: 15px 15px 15px 15px;
+}
+
+div.menu li {
+    float: left;
+}
+
+div.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.menu li a:hover:not(.active) {
+    background-color: #6fe0d1;
+    border-radius: 15px;
+}
+
+div.menu .active {
+    background-color: #ff616f;
+    border-radius: 15px;
+}
