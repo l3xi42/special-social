@@ -1,8 +1,8 @@
 <?php
-$servername = "mysql80.websupport.sk:3314";
-$severuname = "Laura713";
-$password = "Rj9rB`IIy.";
-$dbname = "Registraci";
+$servername = "";
+$severuname = "";
+$password = "";
+$dbname = "";
 
 $dsn = "mysql:host=$servername;dbname=$dbname";
 $dbc = new PDO($dsn, $severuname, $password);
