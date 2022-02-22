@@ -15,16 +15,10 @@ date
 
 ## chat_message
 
-
-# basic things i use
-
 ## Colours:
 dark = #2b314
-
 pink/red = #ff616f
-    
 blue = #6fe0d1
-
 white = #fff
 
 
