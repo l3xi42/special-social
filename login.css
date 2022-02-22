@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  background-color: #6fe0d1;
+  font-family: 'Montserrat', sans-serif;            
+}
+
+.form {
+  overflow: hidden;
+  background-color: #2b3146;
+  margin: 10px;
+  border: 20px;
+  padding: 40px 30px 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 175px;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+}
+
+.form > input {
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: white;
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+h3{
+  color: #ff616f;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  left: 200px;
+  top: 0px;
+}
+.nad{
+  color: #fff;
+  position: absolute;
+  font-size: 14px;
+  left: 5%;
+  bottom: 25%;
+}
+.pod{
+  color: #fff;
+  position: absolute;
+  font-size: 14px;
+  left: 37%;
+  bottom: 25%;
+}
+.vpravo{
+  color: #fff;
+  position: absolute;
+  font-size: 14px;
+  left: 87%;
+  bottom: 25%; 
+}
+.form > button {
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 80px;
+  border: 0;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-radius: 5px;
+  background-color: #ff616f;
+}
+
+.form > button:hover {
+  background-color: #6fe0d1;
+}
+@media only screen and (max-width: 600px){
+  .form {
+    overflow: hidden;
+    background-color: #2b3146;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 285px;
+    height: 175px;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+  }
+  h3{
+    color: #ff616f;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    left: 40%;
+    top: 0px;
+  }
+  .nad{
+    color: #ff616f;
+    position: absolute;
+    font-size: 12px;
+    left: 25px;
+    bottom: 25%;
+    
+  }
+  .pod{
+    color: #ff616f;
+    position: absolute;
+    font-size: 12px;
+    left: 135p;
+    bottom: 25%;
+  
+  }
+}
